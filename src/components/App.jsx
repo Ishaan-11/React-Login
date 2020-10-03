@@ -7,9 +7,7 @@ function renderConditionally() {
   if(isLoggedIn){
     return (<h1>Hello</h1>);
   } else {
-    return (
-      <Login />
-    );
+    return <Login />;
   }
 }
 function App() {
